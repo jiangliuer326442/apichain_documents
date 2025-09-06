@@ -3,22 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 'ApiChain Documents'
+subtitle: 'Welcome To ApiChain Documents'
+description: 'an introduction about apichain'
+keywords: 'apichain,postman'
+author: Mustafa
+language: zh-CN,zh-TW,en
+timezone: 'Asia/Shanghai'
 
-# URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://doc.apichain.app
+root: /
+permalink: :category/:title/
 permalink_defaults:
+  lang: en
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true
+  trailing_html: true
 
 # Directory
 source_dir: source
